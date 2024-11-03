@@ -1,12 +1,13 @@
-
+/* Login Section */
 .login-section {
-    max-width: 400px; 
-    margin: 50px auto; 
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.401); 
+    max-width: 400px; /* Max width of the login form */
+    margin: 50px auto; /* Center the form horizontally */
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.25); /* Slightly transparent background */
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.533);
     text-align: center;
+    font-family: sans-serif;
 
 
 }
@@ -27,13 +28,14 @@ body{
 }
 
 .nav-links a {
-    margin-right: 20px; 
-    color: #fff;
+    margin-right: 20px; /* Space to the right of each link */
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px;
-    background: #021720;
+    background: #021720ab;
     border-radius: 5px;
+    font-family: sans-serif;
 }
 nav {
     display: flex;
@@ -42,59 +44,65 @@ nav {
 }
 
 .nav-links a:last-child {
-    margin-right: 0; 
+    margin-right: 0; /* Remove margin from the last link */
+}
+.nav-links a:hover{
+    background-color: #cccccc33;
 }
 
 .login-section h1 {
     margin-bottom: 20px;
-    color: #003366; 
+    color: #ffffff; /* Header color */
    
 
 }
 
 .form-group {
     margin-bottom: 15px;
-    text-align: left; 
+    text-align: left; /* Align labels to the left */
 }
 
 .form-group label {
-    display: block; 
+    display: block; /* Display label as a block */
     margin-bottom: 5px;
     font-weight: bold;
 }
 
 .form-group input {
-    width: 100%; 
+    width: 100%; /* Full width for inputs */
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
 }
 
 .btn {
     display: inline-block;
-    background: #8ac9e5; 
+    background: #fecb00; /* Button color */
     color: #180707;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    border: none; 
-    cursor: pointer; 
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
 }
 
 .btn:hover {
-    background: #68ddd531;
+    background: #68ddd531; /* Darker button on hover */
 }
 
 p {
-    margin-top: 15px; 
+    margin-top: 15px; /* Space above the paragraph */
 }
 
 p a {
-    color: #003366; 
+    color: #022548; /* Link color */
     text-decoration: none;
 }
 
 p a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline on hover */
+}
+footer{
+    color: #ffffff;
 }
