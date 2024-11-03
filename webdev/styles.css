@@ -1,11 +1,11 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and Typography */
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -13,14 +13,14 @@ body {
     background-color: #000000;
 }
 
-/* Header Styles */
+
 header {
-    background: #003366; /* Dark blue color for the header */
+    background: #003366; 
     color: #fff;
     padding: 10px 20px;
     background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/01/captain-america-shield-desktop-wallpaper-preview.jpg');
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the image */
+    background-size: cover; 
+    background-position: center; 
     background-repeat: no-repeat;
     
 }
@@ -32,7 +32,7 @@ nav {
 }
 
 .logo img {
-    width: 100%; /* Responsive logo */
+    width: 100%; 
     max-width: 250px;
 }
 
@@ -57,20 +57,20 @@ nav {
 
 .nav-links a:hover {
     text-decoration: underline;
-    background: #68ddd531; /* Darker button on hover */
+    background: #68ddd531; 
 
 }
 
-/* Hero Section */
+
 .hero {
    
     color: rgb(242, 242, 242);
     padding: 60px 20px;
     text-align: center;
     background-image: url('https://i.pinimg.com/736x/a7/55/40/a7554052b33f3b67b3e8b0336619383a.jpg');
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 
 }
 
@@ -85,7 +85,7 @@ nav {
 
 .btn {
     display: inline-block;
-    background: #e3c816f3; /* Button color */
+    background: #e3c816f3; 
     color: #180707;
     padding: 10px 20px;
     text-decoration: none;
@@ -94,7 +94,7 @@ nav {
 }
 
 .btn:hover {
-    background: #68ddd531; /* Darker button on hover */
+    background: #68ddd531; 
 }
 
 /* Missions Section */
@@ -111,8 +111,8 @@ nav {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     color: #180707;
-    width: 250px; /* Set a fixed width for uniformity */
-    height: 200px; /* Set a fixed height */
+    width: 250px; 
+    height: 200px; 
     transition: transform 0.3s; 
 }
 
@@ -120,10 +120,10 @@ nav {
     margin-bottom: 1px;
 }
 .mission:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
+    transform: translateY(-5px); 
     background: #5e79bab7;
 }
-/* Features Section */
+
 .features {
    
     align-items: center;
@@ -140,7 +140,7 @@ nav {
     display: flex;
     padding: 20px;
     justify-content: center; 
-    flex-wrap: wrap; /* Responsive layout */
+    flex-wrap: wrap; 
 }
 
 .feature1, .feature2, .feature3, .feature4 {
@@ -149,12 +149,12 @@ nav {
     margin: 10px;
     padding: 20px;
     text-align: center;
-    flex: 1; /* Equal width for features */
-    max-width: 200px; /* Limiting max width for responsiveness */
+    flex: 1; 
+    max-width: 200px; 
 }
 
 .feature1 img, .feature2 img, .feature3 img, .feature4 img {
-    max-width: 100%; /* Responsive images */
+    max-width: 100%; 
   
 }
 .feature1:hover {
@@ -169,7 +169,7 @@ nav {
 .feature4:hover {
     transform: translateY(-10px);
 }
-/* About Section */
+
 .about {
     padding: 20px;
     text-align: center;
@@ -177,9 +177,9 @@ nav {
     background-color: #08051f;
 }
 
-/* Footer Styles */
+
 footer {
-    background: #003366; /* Same color as header */
+    background: #003366; 
     color: white;
     text-align: center;
     padding: 15px 0;
