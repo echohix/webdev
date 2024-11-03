@@ -1,0 +1,189 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #f4e6e6;
+    background-color: #000000;
+}
+
+/* Header Styles */
+header {
+    background: #003366; /* Dark blue color for the header */
+    color: #fff;
+    padding: 10px 20px;
+    background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/01/captain-america-shield-desktop-wallpaper-preview.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%; /* Responsive logo */
+    max-width: 250px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+   
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #06344892;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    background: #68ddd531; /* Darker button on hover */
+
+}
+
+/* Hero Section */
+.hero {
+   
+    color: rgb(242, 242, 242);
+    padding: 60px 20px;
+    text-align: center;
+    background-image: url('https://i.pinimg.com/736x/a7/55/40/a7554052b33f3b67b3e8b0336619383a.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    background: #e3c816f3; /* Button color */
+    color: #180707;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #68ddd531; /* Darker button on hover */
+}
+
+/* Missions Section */
+.missions {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.mission {
+    background: rgba(255, 255, 255, 0.546);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #180707;
+    width: 250px; /* Set a fixed width for uniformity */
+    height: 200px; /* Set a fixed height */
+    transition: transform 0.3s; 
+}
+
+.mission h3 {
+    margin-bottom: 1px;
+}
+.mission:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    background: #5e79bab7;
+}
+/* Features Section */
+.features {
+   
+    align-items: center;
+    background-image: URL('https://wallpapers-clan.com/wp-content/uploads/2024/01/captain-america-shield-desktop-wallpaper-preview.jpg');
+    color: #000102;
+   
+}
+.features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature-list {
+    display: flex;
+    padding: 20px;
+    justify-content: center; 
+    flex-wrap: wrap; /* Responsive layout */
+}
+
+.feature1, .feature2, .feature3, .feature4 {
+    background: rgba(255, 255, 255, 0.266);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1; /* Equal width for features */
+    max-width: 200px; /* Limiting max width for responsiveness */
+}
+
+.feature1 img, .feature2 img, .feature3 img, .feature4 img {
+    max-width: 100%; /* Responsive images */
+  
+}
+.feature1:hover {
+    transform: translateY(-10px);
+}
+.feature2:hover {
+    transform: translateY(-10px);
+}
+.feature3:hover {
+    transform: translateY(-10px);
+}
+.feature4:hover {
+    transform: translateY(-10px);
+}
+/* About Section */
+.about {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #08051f;
+}
+
+/* Footer Styles */
+footer {
+    background: #003366; /* Same color as header */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
